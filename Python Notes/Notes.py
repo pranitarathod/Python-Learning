@@ -60,3 +60,102 @@ eg. str1 = 'helloworld'
 o/p - helloworld  
 
 '''
+
+#which are the different ways to perform string formatting? explain with example.
+'''
+There are two ways of string formatting.
+1) F String Formatting
+
+Syntax of F string: Print (f 'Function {a}, {b} is {Operation}')
+
+2) .Format string Formatting
+
+Syntax of Format string: Print ('function {}, {} is {}.' format (a, b, operation)
+
+Example of F string and format string is as follows:
+
+# f string example
+
+a = 20
+b = 30
+c = 50
+add = a + b + c
+print(f'addition of {a}, {b}, and {c} is:',{add})
+
+o/p---addition of 20, 30, and 50 is: {100}
+
+# .format string example
+
+a = 32
+b = 54
+c = 43
+add = a + b + c
+print('addition of {}, {} , and {}, is {}:'.format(a, b, c, add))
+
+o/p---addition of 32, 54 , and 43, is 129:
+
+'''
+
+#what is index?
+'''
+An index is a position of an individual character or element in a list, tuple, or string. 
+The index value always starts at zero and ends at one less than the number of items.
+
+'''
+
+#string slicing--
+
+'''' 
+Slicing is the extraction of a part of a string, list, or tuple. 
+It enables users to access the specific range of elements by mentioning their indices.
+
+syntax 
+string[start_inedx:end_index] # start index ---> included & end_index not included
+
+start_index --- included
+end_index --- not included
+'''
+##String Slicing with negative indexing 
+'''
+string = "Data"
+
+# D   a  t  a
+# 0   1  2  3
+# -4 -3 -2  -1
+
+# # at
+# slicing syntax 
+# var[start_index:end_index]
+
+print(string[-3:])
+'''
+
+##Step Size
+'''
+Syntax 
+
+var[start_index:end_index:step_size]
+
+start_index -- included by default 0
+end _index --- not include by deafult last index
+step_size --- how many number of jump for slicinig (char to skip) by default 1
+'''
+
+#Slice() function
+'''
+The slice() method extracts a section of data and returns it as new data, without modifying it. 
+This means users can take a specific range of elements without changing it.
+'''
+
+#string concatenation
+'''
+To concatenate, or combine, two strings you can use the + operator.
+
+eg. 
+
+'''
+
+'''Casefold
+return casefolded copy of string.casefolded string may be caseless matching.it is similar to lowercase.  
+
+'''
