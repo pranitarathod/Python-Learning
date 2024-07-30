@@ -1,0 +1,45 @@
+'''
+Function is an oragnized block of reuseable code. 
+function is execute only when it called. 
+def keyword we are going to create a function 
+
+Synatx:
+    
+def function_name():
+    statements
+    expression
+----------------------------------------------------------------------------
+--calling the function:
+
+function_name()
+function name should follow indentifier rules.
+
+------------------------------------------------------------------------
+Synatx for function with argument 
+
+def my_func(parameter1,parameter2):
+    statements
+    exp
+    ....
+    ....
+
+my_fun(argument1, argument2)
+
+parameters == arguments
+
+--parameter--
+a parameter is the variable listed inside the parentheses in the function definition.
+
+--argument--
+a argument is the value that is sent to the function when it is called.
+
+
+---return statement
+def function_name():
+    pass
+    return 
+
+
+var = function_name()
+
+'''

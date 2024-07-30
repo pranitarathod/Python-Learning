@@ -159,3 +159,18 @@ eg.
 return casefolded copy of string.casefolded string may be caseless matching.it is similar to lowercase.  
 
 '''
+
+'''
+list & tuple
+[]             |    ()
+mutuable       | immutable
+slower         | Faster
+more time      | less time to execute
+more memory    | less memory 
+more methods/fun | less methods
+ordered        | Orderes
+allow duplicate| Allow duplicate
+separetd by ,  | separated by comma ,
+contain diff data | contain diff data
+index & slicing | index & slicing
+'''
